@@ -40,7 +40,8 @@ Route::middleware('auth:sanctum')->post('/templates/image/{uni}', [TemplateContr
 
 Route::post('/actions-events', [EventForTemplatesController::class, 'store'])->name("add.new.event");
 
-Route::get('/events/categories/{id}', [EventController::class, 'getCategoriesForEvent'])->name("get.categories.for.event");
+// Route::get('/events/categories/{id}', [EventController::class, 'getCategoriesForEvent'])->name("get.categories.for.event");
+Route::get('/events/categories/{id}', [EventController::class, 'getCategoriesForEvent'])->name("get.categories.for.events");
 
 Route::post('/events/categories/{id}', [EventController::class, 'setCategoriesForEvent'])->name("get.categories.for.event");
 
