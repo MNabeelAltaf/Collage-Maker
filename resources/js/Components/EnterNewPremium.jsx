@@ -7,7 +7,7 @@ import * as Yup from "yup";
 
 const EnterNewpremium = ({ addEvent, isSubmitting }) => {
     useEffect(() => {
-        // on chaneg, clear form
+        // on change, clear form
     }, [isSubmitting]);
 
     const [neweventObj, setNeweventObj] = useState({
@@ -41,7 +41,7 @@ const EnterNewpremium = ({ addEvent, isSubmitting }) => {
         const errors = {};
         let isThereAnyErrors = false;
         if (neweventObj["title"].length < 3) {
-            errors["title"] = "Minimum title lenght shuold be 3";
+            errors["title"] = "Minimum title length should be 3";
             isThereAnyErrors = true;
         }
 
@@ -90,6 +90,12 @@ const EnterNewpremium = ({ addEvent, isSubmitting }) => {
                     name="title"
                 />
 
+                {validationErrors["errors"]["title"] && (
+                    <Typography variant="p" className="input-validation-error">
+                        {validationErrors["errors"]["title"]}
+                    </Typography>
+                )}
+
                 {/* Image Input */}
                 <label className="add-event-form-input">
                     <input
@@ -103,6 +109,12 @@ const EnterNewpremium = ({ addEvent, isSubmitting }) => {
                     &nbsp; &nbsp; Select image
                 </label>
 
+                {validationErrors["errors"]["image"] && (
+                    <Typography variant="p" className="input-validation-error">
+                        {validationErrors["errors"]["image"]}
+                    </Typography>
+                )}
+
                 {/* Voice Input */}
                 <label className="add-event-form-input">
                     <input
@@ -115,6 +127,12 @@ const EnterNewpremium = ({ addEvent, isSubmitting }) => {
                     />
                     &nbsp; &nbsp; Select Voice
                 </label>
+
+                {validationErrors["errors"]["voice"] && (
+                    <Typography variant="p" className="input-validation-error">
+                        {validationErrors["errors"]["voice"]}
+                    </Typography>
+                )}
 
                 {/* Premium Checkbox */}
                 <label className="add-event-form-input">
