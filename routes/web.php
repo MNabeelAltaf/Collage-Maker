@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\Premiumcontroller;
 use App\Http\Controllers\EventController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\SingleImageDataController;
@@ -44,6 +45,8 @@ Route::middleware('auth')->group(function () {
     Route::get('/categories', [CategoryController::class, 'view'])->name('categories.view');
 
     Route::get('/events', [EventController::class, 'index'])->name('events.view');
+
+    Route::get('/premium', [Premiumcontroller::class, 'index'])->name('premium.view');
 
 });
 

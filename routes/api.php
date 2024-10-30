@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\EventController;
+use App\Http\Controllers\Premiumcontroller;
 use App\Http\Controllers\EventForTemplatesController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\SingleImageDataController;
@@ -39,6 +40,9 @@ Route::middleware('auth:sanctum')->delete('/assets/{uni}', [SingleImageDataContr
 Route::middleware('auth:sanctum')->post('/templates/image/{uni}', [TemplateController::class, 'updateImage'])->name("update.template.image");
 
 Route::post('/actions-events', [EventForTemplatesController::class, 'store'])->name("add.new.event");
+
+Route::post('/premium', [Premiumcontroller::class, 'store'])->name('add.premium');
+
 
 // Route::get('/events/categories/{id}', [EventController::class, 'getCategoriesForEvent'])->name("get.categories.for.event");
 Route::get('/events/categories/{id}', [EventController::class, 'getCategoriesForEvent'])->name("get.categories.for.events");

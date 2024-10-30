@@ -21,8 +21,6 @@ Homestead.json
 /.vagrant
 .phpunit.result.cache
 
-# not using redis in local env
-# config/database.php
 
 
 

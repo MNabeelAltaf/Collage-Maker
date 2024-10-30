@@ -9,10 +9,13 @@ class Premium extends Model
 {
     use HasFactory;
 
+    public $timestamps = true;
+
     protected $fillable = [
         'title',
         'image',
         'voice',
+        'is_premium'
     ];
     protected $table = 'premium'; // Optional, only if table name differs from the model name
 }
