@@ -1,0 +1,212 @@
+[
+    {
+        "title": "9GAG",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/9gag.svg",
+        "link": "https://9gag.com/"
+    },
+    {
+        "title": "Akıllı TV",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/akillitv.svg",
+        "link": ""
+    },
+    {
+        "title": "Bandcamp",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/bandcamp.svg",
+        "link": ""
+    },
+    {
+        "title": "Bilibili",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/bilibili.svg",
+        "link": ""
+    },
+    {
+        "title": "Bitchute",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/bitchute.svg",
+        "link": "https://www.bitchute.com/"
+    },
+    {
+        "title": "Blogger",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/blogger.svg",
+        "link": ""
+    },
+    {
+        "title": "BluTV",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/blutv.svg",
+        "link": ""
+    },
+    {
+        "title": "Buzzfeed",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/buzzfeed.svg",
+        "link": ""
+    },
+    {
+        "title": "https://www.dailymotion.com",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/dailymotion.svg",
+        "link": ""
+    },
+    {
+        "title": "Douyin",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/douyin.svg",
+        "link": "https://www.douyin.com/"
+    },
+    {
+        "title": "ESPN",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/espn.svg",
+        "link": "https://www.espn.in/"
+    },
+    {
+        "title": "Facebook",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/facebook.svg",
+        "link": "https://www.facebook.com/watch"
+    },
+    {
+        "title": "Febspot",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/febspot.svg",
+        "link": "https://www.febspot.com/"
+    },
+    {
+        "title": "Flickr",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/flickr.svg",
+        "link": ""
+    },
+    {
+        "title": "Ifunny",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/ifunny.svg",
+        "link": "https://ifunny.co/"
+    },
+    {
+        "title": "IMDB",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/imdb.svg",
+        "link": "https://www.imdb.com/?ref_=nv_home"
+    },
+    {
+        "title": "Imgur",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/imgur.svg",
+        "link": "https://imgur.com/"
+    },
+    {
+        "title": "Instagram",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/instagram.svg",
+        "link": "https://www.instagram.com/"
+    },
+    {
+        "title": "Izlesene",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/izlesene.svg",
+        "link": "https://www.izlesene.com/"
+    },
+    {
+        "title": "Kwai",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/kwai.svg",
+        "link": "https://www.kwai.com/foryou"
+    },
+    {
+        "title": "Likee",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/likee.svg",
+        "link": ""
+    },
+    {
+        "title": "LinkedIn",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/linkedin.svg",
+        "link": "https://www.linkedin.com/feed/"
+    },
+    {
+        "title": "Mashable",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/mashable.svg",
+        "link": ""
+    },
+    {
+        "title": "Mixcloud",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/mixcloud.svg",
+        "link": ""
+    },
+    {
+        "title": "MxTakatak",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/mxtakatak.svg",
+        "link": ""
+    },
+    {
+        "title": "Ok.ru",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/odnoklassniki.svg",
+        "link": ""
+    },
+    {
+        "title": "Pinterest",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/pinterest.svg",
+        "link": "https://www.pinterest.com/"
+    },
+    {
+        "title": "PuhuTV",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/puhutv.svg",
+        "link": "https://puhutv.com/"
+    },
+    {
+        "title": "Reddit",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/reddit.svg",
+        "link": "https://www.reddit.com/"
+    },
+    {
+        "title": "Rumble",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/rumble.svg",
+        "link": "https://rumble.com/"
+    },
+    {
+        "title": "Share Chat",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/sharechat.svg",
+        "link": ""
+    },
+    {
+        "title": "Snapchat",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/snapchat.svg",
+        "link": "https://www.snapchat.com/discover"
+    },
+    {
+        "title": "Soundcloud",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/soundcloud.svg",
+        "link": ""
+    },
+    {
+        "title": "Streamable",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/streamable.svg",
+        "link": ""
+    },
+    {
+        "title": "TED",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/ted.svg",
+        "link": "https://www.ted.com/"
+    },
+    {
+        "title": "Telegram",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/telegram.svg",
+        "link": ""
+    },
+    {
+        "title": "Tiktok",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/tiktok.svg",
+        "link": "https://www.tiktok.com"
+    },
+    {
+        "title": "Tumblr",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/tumblr.svg",
+        "link": "https://www.tumblr.com/"
+    },
+    {
+        "title": "Twitch",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/twitch.svg",
+        "link": "https://www.twitch.tv/"
+    },
+    {
+        "title": "Vimeo",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/vimeo.svg",
+        "link": ""
+    },
+    {
+        "title": "VK",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/vkontakte.svg",
+        "link": ""
+    },
+    {
+        "title": "YouTube",
+        "src": "https://7starapps.com/betad/wp-content/themes/aiodl-default/assets/sources/youtube.svg",
+        "link": "https://www.youtube.com/"
+    }
+]
