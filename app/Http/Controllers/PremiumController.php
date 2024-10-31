@@ -23,14 +23,12 @@ class PremiumController extends Controller
         $title = "Premium";
 
         $events = Event::all();
-        $categories = Category::all();
+        $premium = Premium::all();
         return Inertia::render('Premium/Index', [
             'title' => $title,
             'apiToken' => $token,
             'eventsFromServer' => $events,
-
-            // 'categories' => $categories,
-
+            'premium' => $premium,
             'headerOptions' => [
                 [
                     "type" => "modal",

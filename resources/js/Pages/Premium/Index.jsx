@@ -10,13 +10,14 @@ import { Box, Stack, Typography } from "@mui/material";
 import Snackbar from "@mui/material/Snackbar";
 import Alert from "@mui/material/Alert";
 import EnterPremium from "@/Components/EnterNewPremium";
-import ExistingCategories from "@/Components/ExistingCategories";
+import ExistingPremium from "@/Components/ExistingPremium";
 import Grow from "@mui/material/Grow";
 import EventCategoryModalComponent from "@/Components/EventCategoryModalComponent";
+import { gridColumnsTotalWidthSelector } from "@mui/x-data-grid";
 
 export default function Index({
     auth,
-    categories,
+    premium,
     title,
     headerOptions,
     apiToken,
@@ -27,6 +28,8 @@ export default function Index({
     const [modalState, setModalState] = useState({});
     const [PremiumEvent, setPremiumEvent] = useState(PremiumEventFromServer);
     const [isSubmitting, setIsSubmitting] = useState(false);
+
+    const [showPremium, setShowPremium] = useState(premium);
 
     const [open, setOpen] = React.useState({
         status: false,
@@ -42,6 +45,9 @@ export default function Index({
             href: data["href"],
             eventId: undefined,
         });
+
+        console.log(showPremium)
+
     }, []);
 
     const resetSnackbarStatus = () => {
@@ -94,9 +100,7 @@ export default function Index({
     const addEvent = async (PremiumEvent, data) => {
         setIsSubmitting(true);
 
-
         // console.log(data);
-
 
         const premiumEventArray = Array.isArray(PremiumEvent)
             ? PremiumEvent
@@ -107,7 +111,6 @@ export default function Index({
         formData.append("image", data.image);
         formData.append("voice", data.voice);
         formData.append("is_premium", data.is_premium);
-
 
         try {
             const response = await axios.post(route("add.premium"), formData, {
@@ -120,7 +123,7 @@ export default function Index({
             openSnackbar("Premium has been created", "success");
 
             // Set the new event array with the added event
-            const newEventArr = [...premiumEventArray, response.data.data]; // Adjust according to your API response
+            const newEventArr = [...premiumEventArray, response.data.data];
             setPremiumEvent(newEventArr);
         } catch (error) {
             console.error("Error adding Premium event:", error);
@@ -211,10 +214,11 @@ export default function Index({
                             alignItems: "flex-start",
                         }}
                     >
-                        {/* <ExistingCategories
-                            PremiumEvent={PremiumEvent}
+                        <ExistingPremium
+                            events={showPremium}
                             onClick={handleModalBtnClick}
-                        /> */}
+                        />
+
                         <EnterPremium
                             isSubmitting={isSubmitting}
                             addEvent={addEvent}

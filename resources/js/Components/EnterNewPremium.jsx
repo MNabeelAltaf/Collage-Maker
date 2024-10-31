@@ -60,12 +60,11 @@ const EnterNewpremium = ({ addEvent, isSubmitting }) => {
     };
 
     const onFormSubmit = (event) => {
-        event.preventDefault(); // Prevent the default form submission
+        // event.preventDefault();
 
         if (!validate()) {
-            // Validate the form
             setValidationErrors({ isError: false, errors: {} });
-            addEvent(event, neweventObj); // Pass the event data to addEvent
+            addEvent(event, neweventObj);
         }
     };
 
